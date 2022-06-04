@@ -1,0 +1,55 @@
+{
+  "portfolio": [
+    {
+      "sys": {"id": "1"},
+      "fields": {
+        "title": "Mahindra 700 configurator",
+        "description": "This is car Configurator. Where you can see 3d car and add different Accessories and book the car. ",
+        "details": [ "HTML5","SASS", "TypeScript", "Angular10", "JSON"],
+        "github": "",
+        "web": "https://auto.mahindra.com/configuration/#/configuration"
+      },
+      "img":{
+        "fields": {
+          "file": {
+            "url": "./public/img/Mahindra700.png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {"id": "1"},
+      "fields": {
+        "title": "Tata Punch Bookonline",
+        "description": "This is Online booking platform for Tata punch",
+        "details": [ "HTML5","SASS", "TypeScript", "Angular10", "JSON"],
+        "github": "",
+        "web": "https://bookonline.tatamotors.com/punch/#/variant"
+      },
+      "img":{
+        "fields": {
+          "file": {
+            "url": "./public/img/TataPunch.png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {"id": "1"},
+      "fields": {
+        "title": "Calender.quicko",
+        "description": "This is IT calender for all due dates",
+        "details": [ "HTML5","SASS", "TypeScript", "Angular10", "JSON"],
+        "github": "",
+        "web": "https://calendar.quicko.com/"
+      },
+      "img":{
+        "fields": {
+          "file": {
+            "url": "./public/img/CalenderQuicko.png"
+          }
+        }
+      }
+    }
+  ]
+}
