@@ -15,6 +15,7 @@ const Router = require('./routes');
 // Handlebars Middleware
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.engine('ejs', require('ejs').__express);
 app.use('/', Router);
 app.use(express.static(path.join(__dirname, 'public')));
 
