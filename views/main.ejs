@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width = device-width, intial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>AryanPatel | <%= title %></title>
+  <!-- fontawesome css -->
+  <link rel='stylesheet' href='/public/css/all.min.css'>
+  <!-- fontawesome css for SVG image -->
+  <script defer src='/public/js/all.min.js'></script>
+  <link rel='stylesheet' href='/public/css/main.css'>
+  <link rel="icon" type="image/x-icon" href="/public/img/favicon.png">
+</head>
+<body>
+  <%- include ('navbar.ejs') %>
+      <!--     Changing the Content of Webpage based on title      -->
+      <% if(title=="about" ){ %>
+        <%- include ('about.ejs') %>
+          <% } else if(title=="home" ){ %>
+            <%- include ('home.ejs') %>
+              <% } else if(title=="projects" ){ %>
+                <%- include ('projects.ejs') %>
+                      <% } else if(title=="services" ){ %>
+                        <%- include ('services.ejs') %>
+                          <% } %>
+                          <%- include ('_footer.ejs') %>                      
+  <!-- <script src='./public/js/bundle.js'></script> -->
+</body>
+</html>
